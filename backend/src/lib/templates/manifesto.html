@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifiesto de Carga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+        .info p {
+            margin: 5px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Manifiesto de Carga</h1>
+
+    <div class="info">
+        <p><strong>ID del Manifiesto:</strong> {{id}}</p>
+        <p><strong>Placa del Camión:</strong> {{truck}}</p>
+        <p><strong>Fecha de Asignación:</strong> {{assignmentDate}}</p>
+    </div>
+
+    <h2>Órdenes en el Manifiesto</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID Orden</th>
+                <th>Remitente</th>
+                <th>Destinatario</th>
+                <th>Paquetes</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{orders}}
+        </tbody>
+    </table>
+
+</body>
+</html>

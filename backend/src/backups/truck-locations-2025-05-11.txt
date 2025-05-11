@@ -1,0 +1,10 @@
+==== CAMIÓN 5 ====
+Hora        | Latitud      | Longitud     | Dirección
+-------------------------------------------------------------------
+11:13:07    | -0.1179648  | -78.4859136 | cancha zonal cotocollao, Jaime Albuja, La Ofelia, Ponceano, Quito, Pichincha, 170303, Ecuador
+11:13:57    | -0.1179648  | -78.4859136 | cancha zonal cotocollao, Jaime Albuja, La Ofelia, Ponceano, Quito, Pichincha, 170303, Ecuador
+11:14:24    | -0.1179648  | -78.4859136 | cancha zonal cotocollao, Jaime Albuja, La Ofelia, Ponceano, Quito, Pichincha, 170303, Ecuador
+11:14:41    | -0.1179648  | -78.4859136 | cancha zonal cotocollao, Jaime Albuja, La Ofelia, Ponceano, Quito, Pichincha, 170303, Ecuador
+11:12:02    | -0.1179648  | -78.4859136 | cancha zonal cotocollao, Jaime Albuja, La Ofelia, Ponceano, Quito, Pichincha, 170303, Ecuador
+11:12:06    | -0.1179648  | -78.4859136 | cancha zonal cotocollao, Jaime Albuja, La Ofelia, Ponceano, Quito, Pichincha, 170303, Ecuador
+
