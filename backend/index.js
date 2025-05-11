@@ -4,22 +4,22 @@ const { PORT, FRONTEND_URL } = require('./config/config');
 const http = require('http');
 const { initWebSocket } = require('./lib/utils/websocket');
 
-const authRoutes = require('./routes/auth.routes');
-const usersRoutes = require('./routes/users.routes');
-const ordersRoutes = require('./routes/orders.routes');
-const CustomersRoutes = require('./routes/customers.routes');
-const ManifestoRoutes = require('./routes/manifesto.routes');
-const TruckRoutes = require('./routes/truck.routes');
-const LocationRoutes = require('./routes/location.routes');
-const LogbookRoutes = require('./routes/logbook.routes');
-const LogbookDetailsRoutes = require('./routes/logbook-details.routes');
-const PdfRoutes = require('./routes/pdf.routes');
+const authRoutes = require('./src/routes/auth.routes');
+const usersRoutes = require('./src/routes/users.routes');
+const ordersRoutes = require('./src/routes/orders.routes');
+const CustomersRoutes = require('./src/routes/customers.routes');
+const ManifestoRoutes = require('./src/routes/manifesto.routes');
+const TruckRoutes = require('./src/routes/truck.routes');
+const LocationRoutes = require('./src/routes/location.routes');
+const LogbookRoutes = require('./src/routes/logbook.routes');
+const LogbookDetailsRoutes = require('./src/routes/logbook-details.routes');
+const PdfRoutes = require('./src/routes/pdf.routes');
 
 const cron = require('node-cron');
-const cleanUpLocations = require('./services/cleanup.service');
+const cleanUpLocations = require('./src/services/cleanup.service');
 
 const path = require('path');
-const backupsPath = path.join(__dirname, 'backups');
+const backupsPath = path.join(__dirname, 'src' ,'backups');
 
 const app = express();
 const router = express.Router();
